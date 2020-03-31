@@ -110,7 +110,7 @@ Remova o primeiro `ingrediente` do sanduíche `Quarteirão com Queijo`.
 
 ##### Desafio 11
 
-Remova o último `ingrediente` do sanduíche `Cheddar Mcmelt`.
+Remova o último `ingrediente` do sanduíche `Cheddar McMelt`.
 
 ##### Desafio 12
 
