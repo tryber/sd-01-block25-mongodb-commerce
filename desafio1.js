@@ -6,5 +6,6 @@
 */
 
 /*
-  db.produtos.updateMany( { }, { $set: { 'criadoPor': 'Bolivar' } } );
+use commerce;
+db.produtos.updateMany({}, { $set: { 'criadoPor': 'Bolivar' } });
 */
