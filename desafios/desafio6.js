@@ -1,4 +1,4 @@
-// use commerce;
+use commerce;
 db.produtos.updateOne(
   { nome: "Big Mac" },
   {

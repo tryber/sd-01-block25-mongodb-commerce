@@ -1,4 +1,4 @@
-// use commerce;
+use commerce;
 db.produtos.updateMany(
   { tags: { $all: ['bovino', 'pão'] } },
   {
