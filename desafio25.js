@@ -1,3 +1,2 @@
 use commerce;
-;
-db.produtos.find();
+db.produtos.update({nome:"Big Mac"},{$unset:{"valorUnitario":""}});

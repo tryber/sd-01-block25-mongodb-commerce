@@ -1,3 +1,2 @@
 use commerce;
-;
-db.produtos.find();
+db.produtos.count({$text:{$search:"\"feito com\""}});
