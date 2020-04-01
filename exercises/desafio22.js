@@ -1,2 +1,2 @@
 use commerce;
-db.produtos.find({ $text: { $search: "frango hamburguer" } }).count();
+db.produtos.count({ $text: { $search: "frango hamburguer" } });

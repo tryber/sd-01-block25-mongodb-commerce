@@ -1,2 +1,2 @@
 use commerce;
-db.produtos.find({ nome: { $regex: /mc$/ } }).count();
+db.produtos.count({ nome: { $regex: /Mc/i}});

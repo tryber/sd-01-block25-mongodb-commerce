@@ -1,2 +1,2 @@
 use commerce;
-db.produtos.find({ ingredientes: { $size: 4 } }).count();
+db.produtos.count({ ingredientes: { $size: 4 } });
