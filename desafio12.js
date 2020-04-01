@@ -18,6 +18,6 @@ Tenha isso claro porque vamos utilizar essa sequência mais à frente.
 */
 
 /*
-use commerce;
-db.produtos.updateMany({}, { $set: { 'vendasPorDia': [0, 0, 0, 0, 0, 0, 0] } });s
+  use commerce;
+  db.produtos.updateMany({}, { $set: { 'vendasPorDia': [0, 0, 0, 0, 0, 0, 0] } });
 */
