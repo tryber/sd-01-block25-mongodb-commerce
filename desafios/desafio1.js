@@ -1,5 +1,5 @@
 use commerce;
 db.produtos.updateMany(
-  {},
-  { $set: { "valorUnitario ": "Douglas Eduardo" } }
+  {valorUnitario: {$exists: false}},
+  { $set: { valorUnitario: 'Douglas Eduardo' } }
 );
